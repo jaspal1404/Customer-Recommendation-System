@@ -7,7 +7,7 @@ Many recommendation algorithms exist, from a simple association rule to a slight
 
 
 
-### Types of Recommendation
+### Types of Recommendation:
 In retail, there are two kinds of recommendation commonly used, which are:
 
 a. Content-based recommendation
