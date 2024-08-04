@@ -41,3 +41,4 @@ Finally, we accept the model at around 90% accuracy. We have yielded a set of ra
 ### References:
 1. https://towardsdatascience.com/getting-started-with-recommender-systems-and-tensorrec-8f50a9943eef
 2. https://bond-kirill-alexandrovich.medium.com/precision-and-recall-in-recommender-systems-and-some-metrics-stuff-ca2ad385c5f8
+3. Tensorrec - https://github.com/jfkirk/tensorrec
