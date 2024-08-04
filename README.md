@@ -26,3 +26,12 @@ I will demonstrate a hybrid approach in this article, that processes both user s
 This article will use an open dataset available on Kaggle. This dataset is a retail transaction, spanning from Jan 2011 to 2014, with full dataset and description available here - https://www.kaggle.com/darpan25bajaj/retail-case-study-data. The aim here is to understand how to apply recommendation system to retailers that contains many customers or to systems that consists of multiple users.
 
 
+
+### Testing the Model:
+One way we can ensure the generated recommendation is relevant is to obtain some degree of accuracy. In most ML systems, the higher the accuracy, the better the algorithm. In recommendation system, two types of metrics used frequently are precision@k and recall@k, which conventionally defined as:
+
+Precision: (the percentage of recommended items @k that are relevant) / (total # of recommended items)
+Recall: (the percentage of recommended items @k that are relevant) / (total # of relevant items)
+
+
+Finally, we accept the model at around 90% accuracy. We have yielded a set of ranking of personalized relevant products for each user, shown in the notebook final table. Each material is ranked from 1 to n (n = total # of items) differently for each customer.
