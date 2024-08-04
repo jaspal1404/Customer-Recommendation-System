@@ -35,3 +35,9 @@ Recall: (the percentage of recommended items @k that are relevant) / (total # of
 
 
 Finally, we accept the model at around 90% accuracy. We have yielded a set of ranking of personalized relevant products for each user, shown in the notebook final table. Each material is ranked from 1 to n (n = total # of items) differently for each customer.
+
+
+
+### References:
+1. https://towardsdatascience.com/getting-started-with-recommender-systems-and-tensorrec-8f50a9943eef
+2. https://bond-kirill-alexandrovich.medium.com/precision-and-recall-in-recommender-systems-and-some-metrics-stuff-ca2ad385c5f8
